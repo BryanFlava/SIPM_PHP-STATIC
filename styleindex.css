@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+     height: 100%;
+}
+
+.content{
+    min-height: 100%;
+}
+
+.bg{
+    background: #ffffff;
+    background-image: url(bg2.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bkg{
+    background: #ffffff;
+    background-image: url(bg1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #000000;
+    opacity: 0.2;
+    height: 100%;
+    width: 100%;
+
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(Bellania.otf);
+    
+}
+
+.judul {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50pt;
+    font-family: myFirstFont;
+    color: rgb(223, 203, 189);      
+} 
+
+ul{
+    margin-left: auto;
+}
+
+li a{
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.search-box{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(204, 188, 174);
+    height: 60px;
+    border-radius: 40px;
+}
+
+.search-box:hover > .search-txt{
+    width: 240px;
+   
+}
+
+.search-btn{
+    float: right;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background:  rgb(122, 110, 103);
+    color: rgb(204, 188, 174);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.search-txt{
+    float: left;
+    text-align: center;
+    border: none;
+    background: none;
+    outline: none;
+    color: rgb(63, 60, 56);
+    font-size: 20px;
+    transition: 0.4s;
+    line-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.footer{
+    position: relative;
+}
+

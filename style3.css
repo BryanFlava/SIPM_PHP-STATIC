@@ -1,0 +1,76 @@
+.jumbotron {
+    background-image: url(bg3.jpg);
+    background-size: cover;
+    height: 650px;
+    text-align: center;
+}
+
+.jumbotron .display-4 {
+    color: rgb(187, 200, 218);
+}
+
+.jumbotron .lead {
+    color:   rgb(187, 200, 218);
+}
+
+.jumbotron p {
+    color:   rgb(187, 200, 218);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+/* Style the search field */
+
+form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+
+/* Style the submit button */
+
+form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    cursor: pointer;
+}
+
+form.example button:hover {
+    background: #0b7dda;
+}
+
+
+/* Clear floats */
+
+form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100;
+    display: cover;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    perspective: 320px;
+}
